@@ -97,11 +97,11 @@ body {
 }
 
 .lessons .lessons_day_1 {
-    display: none;
+    /*display: none;*/
 }
 
 .lessons .lessons_day_2 {
-    /*display: none;*/
+    display: none;
 }
 
 .lessons .lessons_day_3 {
