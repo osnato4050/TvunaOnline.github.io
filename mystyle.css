@@ -1,0 +1,181 @@
+/*for all pages*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%; 
+}
+
+.page_header h1 {
+    text-align: center; 
+    color: turquoise;
+}
+
+.menu ul
+{ 
+    list-style:none;
+    text-align: center;   
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.menu .selected a {
+    color: black;
+}
+
+
+
+
+
+
+/*for main page*/
+
+.main_page article {
+    text-align: justify;  
+    text-align-last: right;
+    display: inline;
+    padding: 3%;
+    font-size: 150%;
+    color: gray;
+    font-style:italic;
+    float: right;
+    width: 28%;
+}
+
+.main_page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 20px;
+    border-bottom: 20px;
+    width: 60%;
+    height: 100%;
+    display: inline;
+    float:left;
+    padding: 3%;
+}
+
+
+
+/*for page-1*/
+
+.lessons_order {
+    text-align: right;
+}
+
+.lessons_order ul {
+    list-style: none;
+}
+
+.lessons_order ul li {
+    list-style-position: inside;
+    margin-top: 40px;
+}
+
+.lessons_order ul li p {
+    display: inline;
+}
+
+.lessons_order ul li h3 {
+    display: inline;   
+}
+
+.lessons_order ul li a {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.lessons_order p {
+    margin-top: 40px;
+}
+
+.lessons .lessons_day_1 {
+    /*display: none;*/
+}
+
+.lessons .lessons_day_2 {
+    display: none;
+}
+
+.lessons .lessons_day_3 {
+    display: none;
+}
+
+.lessons .lessons_day_4 {
+    display: none;
+}
+
+
+
+/*for page-2*/
+
+.auxiliary_materials ul li {
+    display: inline;
+    margin-right: 10px;  
+}
+
+.auxiliary_materials ul li a {
+    background-color: turquoise;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.auxiliary_materials {
+    text-align: right;  
+}
+
+.auxiliary_materials p {
+    margin: 40px auto; 
+}
+
+
+
+
+/*for page-3*/
+
+.suppliers_table {
+    text-align: right;
+}
+
+.suppliers_table table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.suppliers_table table td {
+    border: 1px solid turquoise;
+    width: 10%;
+    padding: 1%;
+}
+
+.suppliers_table table th {
+    border: 1px solid turquoise;
+    width: 10%;
+    padding: 2%;
+    background-color: turquoise;
+}
+
+.suppliers_table table {
+    margin-top: 40px;
+}
+
+
+/*for page-4*/
+
+.schedule img {
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+}
