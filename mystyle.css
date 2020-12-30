@@ -97,7 +97,7 @@ body {
 }
 
 .lessons .lessons_day_1 {
-    /*display: none;*/
+    display: none;
 }
 
 .lessons .lessons_day_2 {
@@ -105,7 +105,7 @@ body {
 }
 
 .lessons .lessons_day_3 {
-    display: none;
+    /*display: none;*/
 }
 
 .lessons .lessons_day_4 {
