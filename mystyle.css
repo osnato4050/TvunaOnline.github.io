@@ -62,6 +62,43 @@ body {
     padding: 3%;
 }
 
+@media only screen and (max-width: 1150px) {
+    
+    .main_page article {
+        float: none;
+        padding-top: 0;
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .main_page article {
+        float: none;
+        padding-top: 0;
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    
+    .main_page article {
+        float: none;
+        padding-top: 0;
+        font-size: 100%;
+    }
+    
+    .main_page img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        filter: brightness(115%);
+        padding-bottom: 0;
+    }
+}
+    
 
 
 /*for page-1*/
@@ -97,11 +134,11 @@ body {
 }
 
 .lessons .lessons_day_1 {
-    display: none;
+    /*display: none;*/
 }
 
 .lessons .lessons_day_2 {
-    /*display: none;*/
+    display: none;
 }
 
 .lessons .lessons_day_3 {
@@ -138,7 +175,13 @@ body {
     margin: 40px auto; 
 }
 
-
+@media only screen and (max-width: 810px) {
+    
+    .auxiliary_materials ul li a {
+         display: block;
+    }
+       
+}
 
 
 /*for page-3*/
