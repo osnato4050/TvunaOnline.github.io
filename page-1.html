@@ -114,6 +114,12 @@
                 }
                     
             }
+            if(isStudyingDay == false) {
+                myMessage = document.createTextNode("המשך שבוע טוב");
+                lessonsOrder = document.querySelectorAll('.lessons_order');
+                lessonsOrder[0].appendChild(myMessage);
+                
+            }
             
         </script>
     </body>
