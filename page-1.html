@@ -26,7 +26,7 @@
 
             <ul class="lessons">
 
-                <div class="lessons_day_1">
+                <div class="lessons_day_1" id="Sunday">
                     <li>
                         <h3><span>בסיסי נתונים</span></h3>
                         <h5>הרצאה: 08:30-11:00</h5>
@@ -41,7 +41,7 @@
                     </li>
                 </div>
 
-                <div class="lessons_day_2">
+                <div class="lessons_day_2" id="Monday">
                     <li>
                         <h3><span>ניתוח אלגוריתמים וסיבוכיות</span></h3>
                         <h5>הרצאה: 12:00-13:30</h5>
@@ -56,7 +56,7 @@
                     </li>
                 </div>
 
-                <div class="lessons_day_3">
+                <div class="lessons_day_3" id="Tuesday">
                     <li>
                         <h3><span>סולם ערכים</span></h3>
                         <h5>הרצאה: 08:30-10:00</h5>
@@ -74,7 +74,7 @@
                     </li>
                 </div>  
 
-                <div class="lessons_day_4">
+                <div class="lessons_day_4" id="Wednesday">
                     <li>
                         <h3><span>נושאים ביהדות והשקפה</span></h3>
                         <h5>הרצאה: 08:30-10:00</h5>
@@ -99,6 +99,22 @@
             <p>!!בהצלחה</p>
        </div>
 
-
+        <script>
+            
+            myDaysLinks = document.querySelectorAll('.lessons div');
+            var currentDate = new Date();
+            var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var currentDay = days[currentDate.getDay()];
+            var isStudyingDay = false;
+            for(var i = 0; i<myDaysLinks.length; i++) {
+                if(myDaysLinks[i].id == currentDay) {
+                    myDaysLinks[i].style.display = "block";
+                    isStudyingDay = true;
+                    break;
+                }
+                    
+            }
+            
+        </script>
     </body>
     </html>
